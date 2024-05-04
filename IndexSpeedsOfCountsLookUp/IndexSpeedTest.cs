@@ -33,6 +33,8 @@ Outliers
 Data:
   Both tables had over 2 million rows
 
+TakeAway:
+  Updating existing rows is faster than inserting new rows when the cache time expires
  */
 public class IndexSpeedTest
 {
